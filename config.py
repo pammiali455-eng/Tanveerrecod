@@ -6,17 +6,17 @@ import os
 # ## TELEGRAM CREDENTIALS ##
 # --------------------------------------------------------------------------------
 # Get these from https://my.telegram.org
-API_ID = int(os.environ.get("API_ID", "12345678"))
-API_HASH = os.environ.get("API_HASH", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+API_ID = int(os.environ.get("API_ID", "13516702"))
+API_HASH = os.environ.get("API_HASH", "bf0cc3f062841935d3d5da65134ca4cf")
 
 # Get this from https://t.me/BotFather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "xxxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8698277473:AAE1D2gbzzKmP2SC0_HwRJtj4XvGHAaLd1I")
 
 # --------------------------------------------------------------------------------
 # ## BOT OWNER & PERMISSIONS ##
 # --------------------------------------------------------------------------------
 # Your personal user ID. Get via https://t.me/userinfobot
-OWNER_ID = int(os.environ.get("OWNER_ID", "7958067256"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6407533831"))
 
 # --------------------------------------------------------------------------------
 # ## DATABASE & STORAGE ##
@@ -84,4 +84,5 @@ STATUS_PAGE_SIZE = 10
 # A higher value reduces API spam. Recommended: 20-30 seconds.
 
 PROGRESS_UPDATE_INTERVAL = int(os.environ.get("PROGRESS_UPDATE_INTERVAL", "60"))
+
 
