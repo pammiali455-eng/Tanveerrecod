@@ -22,7 +22,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6407533831"))
 # ## DATABASE & STORAGE ##
 # --------------------------------------------------------------------------------
 # Connection string for your MongoDB Atlas database
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Username:Password@cluster0.a1l08cq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://tvrmods0_db_user:<db_password>@cluster0.uvcly3h.mongodb.net/?appName=Cluster0")
 
 # Directory to store M3U8 channel list (.json) files
 M3U8_FILES_DIRECTORY = os.environ.get("M3U8_FILES_DIRECTORY", "./m3u8_channels")
@@ -31,13 +31,13 @@ M3U8_FILES_DIRECTORY = os.environ.get("M3U8_FILES_DIRECTORY", "./m3u8_channels")
 # ## CORE BOT SETTINGS ##
 # --------------------------------------------------------------------------------
 # Group where the bot primarily operates and sends notifications
-WORKING_GROUP = int(os.environ.get("WORKING_GROUP", "-100xxxxxxxxxx"))
+WORKING_GROUP = int(os.environ.get("WORKING_GROUP", "-1002389593949"))
 
 # Timezone for displaying dates and times (e.g., "Asia/Kolkata", "UTC")
 TIMEZONE = os.environ.get("TIMEZONE", "Asia/Kolkata")
 
 # Invite link to your group, shown in some messages
-GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/+xxxxxxxxxx") # **Replace with your actual group link**
+GROUP_LINK = os.environ.get("GROUP_LINK", "https://t.me/offical_sony_yay") # **Replace with your actual group link**
 
 # --------------------------------------------------------------------------------
 # ## PERFORMANCE & LIMITS ##
@@ -84,5 +84,6 @@ STATUS_PAGE_SIZE = 10
 # A higher value reduces API spam. Recommended: 20-30 seconds.
 
 PROGRESS_UPDATE_INTERVAL = int(os.environ.get("PROGRESS_UPDATE_INTERVAL", "60"))
+
 
 
